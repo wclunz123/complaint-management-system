@@ -1,0 +1,267 @@
+.home {
+  position: relative;
+  height: 700px;
+  min-height: 500px;
+  width: 100%;
+  background-position: center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+.home-content {
+  left: 0;
+  top: 20%;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: #2c3e50;
+}
+
+.home-content__hook {
+  display: inline-flex;
+  margin-bottom: 2%;
+}
+
+.home-content__badge {
+  width: 30%;
+  display: inline-flex;
+  margin-left: 5%;
+}
+
+.home-content__badge img {
+  height: 150px;
+  width: auto;
+  margin-right: 8px;
+  align-items: end;
+  text-align: right;
+  transition: all 0.3s;
+}
+
+.home-content__badge img:active,
+.home-content__badge img:hover {
+  transform: scale(1.05);
+}
+
+.home-content__hook img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: -6%;
+  z-index: 1;
+}
+
+.home-content__overlay-hook {
+  left: 0%;
+  margin-top: 90px;
+  font-size: 200%;
+  font-weight: 600;
+  border: 2px #0652dd solid;
+  background-color: #0652dd;
+  border-radius: 25px;
+  color: white;
+  height: 50px;
+  width: 20rem;
+  padding-left: 3%;
+  transition: all 0.25s ease-in-out;
+}
+
+.home-content h1 {
+  font-weight: 600;
+  font-size: 300%;
+  margin-bottom: 0.5rem;
+}
+
+.home-content p {
+  font-weight: 400;
+  font-size: 150%;
+}
+
+.home-content__button-container {
+  display: block;
+  margin-top: 3%;
+  font-size: 120%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.home-content__button-contact {
+  padding: 10px 20px 10px 20px;
+  color: white;
+  background-color: #0652dd;
+  border-radius: 25px;
+  border: 2px solid #0652dd;
+  margin-right: 2%;
+  transition: all 0.25s ease-in-out;
+  text-decoration: none;
+}
+
+.home-content__button-contact:active,
+.home-content__button-contact:hover {
+  background-color: transparent;
+  color: 1px solid #0652dd;
+}
+
+.home-content__button-explore {
+  padding: 10px 25px 10px 25px;
+  color: #0652dd;
+  background-color: transparent;
+  border-radius: 25px;
+  border: 2px solid #0652dd;
+  margin-right: 2%;
+  transition: all 0.25s ease-in-out;
+  text-decoration: none;
+}
+
+.home-content__button-explore:active,
+.home-content__button-explore:hover {
+  background-color: #2c3e50;
+  border: 1px #2c3e50 solid;
+  color: white;
+}
+
+.smoothscroll {
+  width: fit-content;
+  margin-left: 47%;
+  margin-top: 5%;
+  color: #0652dd;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home {
+    height: 650px;
+  }
+
+  .home-content__hook img {
+    width: 180px;
+    height: 180px;
+    margin: 0;
+    margin-top: 25px;
+    margin-right: -6%;
+  }
+
+  .home-content__overlay-hook {
+    font-size: 180%;
+    height: 45px;
+    width: 18rem;
+    padding-left: 2%;
+  }
+
+  .home-content__badge {
+    margin: 0;
+    margin-left: 3%;
+  }
+
+  .home-content__badge img {
+    height: 130px;
+    width: auto;
+  }
+
+  .home-content {
+    top: 16%;
+  }
+
+  .home-content h1 {
+    font-size: 250%;
+    margin-top: 2%;
+  }
+
+  .home-content p {
+    font-size: 130%;
+  }
+
+  .home-content__button-container {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .home-content__button-contact {
+    padding: 8px 15px 8px 15px;
+    font-size: 100%;
+  }
+
+  .home-content__button-explore {
+    padding: 8px 15px 8px 15px;
+    font-size: 100%;
+  }
+
+  .smoothscroll {
+    margin-left: 47%;
+  }
+
+  .smoothscroll svg {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    height: 750px;
+  }
+
+  .home-content {
+    top: 12%;
+  }
+
+  .home-content__hook {
+    width: 60%;
+    margin: 0 0 3% 20%;
+    display: block;
+  }
+
+  .home-content__hook img {
+    width: 180px;
+    height: 180px;
+    margin: 0;
+  }
+
+  .home-content__overlay-hook {
+    margin: 0;
+    font-size: 150%;
+    padding: 1%;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .home-content__badge {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .home-content__badge img {
+    height: 120px;
+    width: auto;
+    margin: 0;
+    text-align: center;
+  }
+
+  .home-content h1 {
+    font-size: 200%;
+    margin-top: 2%;
+  }
+
+  .home-content p {
+    font-size: 120%;
+  }
+
+  .home-content__button-contact {
+    padding: 7px 12px 7px 12px;
+    margin-right: 2%;
+    font-size: 85%;
+  }
+
+  .home-content__button-explore {
+    padding: 7px 12px 7px 12px;
+    margin-right: 2%;
+    font-size: 85%;
+  }
+
+  .smoothscroll svg {
+    width: 80%;
+  }
+}

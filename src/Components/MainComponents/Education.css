@@ -1,0 +1,80 @@
+.education {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  margin-top: 3%;
+}
+
+.education h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-left: 5%;
+  color: #2c3e50;
+}
+
+.education h2::after {
+  display: none;
+}
+
+.education h2 span {
+  border-bottom: 2px solid #0652dd;
+  padding-bottom: 6px;
+}
+
+.education-content {
+  left: 15%;
+  top: 5%;
+  position: relative;
+  text-align: center;
+  width: 70%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.education-grid-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding-bottom: 5%;
+}
+
+
+@media only screen and (max-width: 1280px) {
+  .education-content h2 {
+    font-size: 170%;
+  }
+
+  .education-grid-container {
+    grid-template-columns: 20% 80%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .education-content {
+    left: 5%;
+    width: 90%;
+    margin-top: 3%;
+  }
+
+  .education-content h2 {
+    font-size: 160%;
+  }
+
+  .education-grid-container {
+    grid-template-columns: 20% 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .education-content {
+    left: 5%;
+    width: 90%;
+  }
+
+  .education-content h2 {
+    font-size: 150%;
+  }
+
+  .education-grid-container {
+    grid-template-columns: 20% 80%;
+  }
+}

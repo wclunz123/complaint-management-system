@@ -1,0 +1,65 @@
+.projects {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-image: url(../../Images/WallpaperDog-5486505.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #0652dd;
+}
+
+.projects::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.projects-content {
+  position: relative;
+  text-align: center;
+  width: 95%;
+  left: 2.5%;
+}
+
+.projects h2 {
+  margin-left: 5%;
+  padding-top: 5%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.projects h2::after {
+  display: none;
+}
+
+.project-list {
+  margin-top: 2%;
+  padding-bottom: 5%;
+  display: inline-table;
+}
+
+@media only screen and (max-width: 1280px) {
+  .projects h2 {
+    margin: 0;
+    margin-left: 5%;
+    font-size: 170%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .projects h2 {
+    margin-left: 5%;
+    font-size: 160%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects h2 {
+    font-size: 150%;
+  }
+}

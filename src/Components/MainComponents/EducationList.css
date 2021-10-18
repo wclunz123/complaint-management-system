@@ -1,0 +1,131 @@
+.education-content__item {
+  position: relative;
+  text-align: left;
+  left: 10%;
+  top: 10%;
+  margin-bottom: 7%;
+  width: 85%;
+  text-align: justify;
+  line-height: 1.8rem;
+}
+
+.education-content__item li {
+  list-style: none;
+  font-size: 110%;
+}
+
+.education-content__item > ul > li:first-child {
+  font-size: 140%;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.education-content__item > ul > li:nth-child(2) {
+  font-size: 120%;
+  font-style: italic;
+}
+
+.education-content__item > ul > li:nth-child(3) {
+  font-size: 110%;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.education-grid__image img {
+  margin-top: 10%;
+  width: 180px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.education-grid__image img:active,
+.education-grid__image img:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1280px) {
+  .education-content__item {
+    text-align: justify;
+  }
+
+  .education-content__item li {
+    list-style: none;
+    font-size: 100%;
+  }
+
+  .education-content__item > ul > li:first-child {
+    font-size: 140%;
+  }
+
+  .education-content__item > ul > li:nth-child(2) {
+    font-size: 110%;
+    font-style: italic;
+  }
+
+  .education-content__item > ul > li:nth-child(3) {
+    font-size: 100%;
+  }
+
+  .education-grid__image img {
+    margin-top: 25%;
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .education-content__item {
+    text-align: justify;
+  }
+
+  .education-content__item li {
+    list-style: none;
+    font-size: 100%;
+  }
+
+  .education-content__item > ul > li:first-child {
+    font-size: 130%;
+  }
+
+  .education-content__item > ul > li:nth-child(2) {
+    font-size: 110%;
+    font-style: italic;
+  }
+
+  .education-content__item > ul > li:nth-child(3) {
+    font-size: 100%;
+  }
+
+  .education-grid__image img {
+    margin-top: 25%;
+    width: 140px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .education-content__item {
+    text-align: justify;
+  }
+
+  .education-content__item li {
+    list-style: none;
+    font-size: 90%;
+  }
+
+  .education-content__item > ul > li:first-child {
+    font-size: 120%;
+  }
+
+  .education-content__item > ul > li:nth-child(2) {
+    font-size: 100%;
+    font-style: italic;
+  }
+
+  .education-content__item > ul > li:nth-child(3) {
+    font-size: 90%;
+  }
+
+  .education-grid__image img {
+    margin-top: 30%;
+    width: 120px;
+  }
+}

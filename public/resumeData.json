@@ -1,0 +1,106 @@
+{
+    "profile":{
+        "profile-photo": ""
+    },
+    "about": {
+        "title": "I’m a Singapore-based Software Engineer in love with coding and technology research.",
+        "description": "Currently based in Singapore, Leonard is committed in his final year degree programme beyond his regular working hour as a Consultant. Despite the packed schedule, he also spent his time in self-development via various platforms such as Udemy, Coursera, Stackoverflow, YouTube, to strengthen his knowledge and techstacks covering topic ranges from Cloud, DevOps, UI Development, and Programming languages. He is highly enthusiasthic with software development work and also expressed passions in exploring high-resolution video games.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1qFn6IiVlHUTZfmx-XDWY2ax_GUCX7CNZ49aI8h9Ww6BPBe4M2ExeyvjfgjaziiJAHJY&usqp=CAU"
+    },
+    "badge": [
+        {
+            "id": "1",
+            "image": "https://images.credly.com/images/4bc21d8b-4afe-4fbd-9a90-a9de8bf7b240/AWS-SolArchitect-Associate-2020.png"
+        },
+        {
+            "id": "2",
+            "image": "https://eadn-wc03-4064062.nxedge.io/cdn/wp-content/uploads/2020/02/Azure.Fundamental_Icon.png"
+        }
+    ],
+    "education": [
+        {
+            "university": "Murdoch University, Singapore",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbUh9NfDoogeCwAi3wlFqiIbPcGnq_f6z-d7753qeDzfD6lnYHJv5StAJR1sXAwLqqRXs&usqp=CAU",
+            "qualification":
+            "Bachelor Degree in Computer Science and Web & Mobile Application Development (Double Major)",
+            "period": "Jul 2020 - Apr 2022 (Expected completion)",
+            "comment":
+            "Throughout the programme, I've equipped myself with strong Computer Science fundamentals alongside with Software Engineering knowledge to develop industrial and production ready applications, in the form of web and mobile."
+        },
+        {
+            "university": "Curtin University of Technology, Malaysia",
+            "logo": "https://research.qut.edu.au/ilaqh/wp-content/uploads/sites/174/2019/04/curtin_logo_square.jpg",
+            "qualification": "Bachelor Degree in Science, Petroleum Geology",
+            "period": "Jul 2011 - Apr 2015",
+            "comment":
+            "All about rocks, soils, and fossils! I've spent most of my time out in the field for mapping projects and sample collection. Analyzing rocks sample in the lab could be quite boring, but it definitely tell us alot about our ancestors."
+        }
+    ],
+    "techstacks" : [
+        {
+            "title": "Java",
+            "description":
+            "My first programming language in the University, where I'm familiar with Inheritance, Polymorphism, Encapsulation.",
+            "image": "https://cdn.freelogovectors.net/svg05/java-logo.svg"
+        },
+        {
+            "title": "ReactJS",
+            "description":
+            "I've spent more than 80-hours in self-learning ReactJs by creating different web applications. FYI, this page is created with ReactJs.",
+            "image": "https://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem-700x626.png"
+        },
+        {
+            "title": "JavaScript",
+            "description":
+            "Consistently working on Hackerrank to improve  JavaScript proficiency, while also actively using it on other frameworks.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
+        },
+        {
+            "title": "NodeJS",
+            "description":
+            "Fairly new to Nodejs still, but I've created a web application using the MERN stack, which is supported by Nodejs as the backend.",
+            "image": "https://i.pinimg.com/originals/99/49/77/994977c48fde58ac674a2d05ba5a5efb.png"
+        },
+        {
+            "title": "MongoDB",
+            "description":
+            "My first NoSQL database experience with MongoDB Atlas was superb! Data were stored in JSON format and made it easy to access.",
+            "image": "https://gocode.colorado.gov/wp-content/uploads/2020/11/MongoDB-logo.gif"
+        },
+        {
+            "title": "AWS Cloud",
+            "description":
+            "Through leveraging the high availability and scalability of the cloud infrastructure, my applications will always perform at its best shot.",
+            "image": "https://afac.org/wp-content/uploads/2019/12/aws-logojpg.jpg"
+        },
+        {
+            "title": "Android Studio",
+            "description":
+            "Developed an e-Commerce Android application through Android Studio using various Android components and SQLite database.",
+            "image": "https://pngimg.com/uploads/android_logo/android_logo_PNG24.png"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Personal Portfolio",
+            "description":
+            "Find out more about Leonard via his personal portfolio created with self-learned ReactJS.",
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8df0b627235079.56361c6431ede.jpg",
+            "url": "https://leonard-project-personalwebsite-aws-s3.s3.ap-southeast-1.amazonaws.com/index.html"
+        },
+        {
+            "title": "GoWhere",
+            "description":
+            "A platform where users are able to share photo and location of unique places they have been to.",
+            "image": "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180221131008/iStock-627935066-1024x684.jpg",
+            "url": "https://leonard-project-personalwebsite-aws-s3.s3.ap-southeast-1.amazonaws.com/index.html"
+        },
+        {
+            "title": "Kuniyakino",
+            "description":
+            "An Android eCommerce application backed by Java and SQLite which allow users to purchase books online.",
+            "image": "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?cs=srgb&dl=pexels-pixabay-256541.jpg&fm=jpg",
+            "url": "https://github.com/wclunz123/Kuniyakino.git"
+        }
+    ]
+}

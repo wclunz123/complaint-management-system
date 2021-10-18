@@ -1,0 +1,108 @@
+footer {
+  height: 380px;
+  color: #2c3e50;
+  text-align: center;
+  position: relative;
+}
+
+.scroll-top {
+  width: fit-content;
+  margin-left: 50%;
+}
+
+.scroll-top svg {
+  cursor: pointer;
+}
+
+.footer-sentence {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 180%;
+  padding-top: 50px;
+  margin-bottom: 1%;
+}
+
+.social-links li {
+  display: inline-block;
+  list-style: none;
+  padding: 8px;
+  margin-right: 35px;
+}
+
+.copyright {
+  width: auto;
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+  right: 35%;
+}
+
+.copyright span {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 110%;
+}
+
+.copyright a {
+  text-decoration: none;
+}
+
+.copyright a:active,
+.copyright a:hover {
+  border-bottom: 2px #0652dd solid;
+}
+
+@media only screen and (max-width: 1024px) {
+  footer {
+    height: 320px;
+  }
+
+  .footer-sentence {
+    font-size: 140%;
+    padding-top: 20px;
+  }
+
+  .social-links li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin-right: 35px;
+  }
+
+  .social-links li a svg {
+    width: 95%;
+  }
+
+  .copyright {
+    bottom: 6%;
+    font-size: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  footer {
+    height: 300px;
+  }
+
+  .footer-sentence {
+    font-size: 150%;
+    padding-top: 20px;
+  }
+
+  .social-links li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin-right: 35px;
+  }
+
+  .social-links li a svg {
+    width: 90%;
+  }
+
+  .copyright {
+    bottom: 8%;
+    font-size: 90%;
+  }
+}

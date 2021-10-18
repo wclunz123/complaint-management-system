@@ -1,0 +1,60 @@
+.techstacks {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  color: #2c3e50;
+}
+
+.techstacks-content {
+  position: relative;
+  text-align: center;
+  width: 90%;
+  left: 5%;
+}
+
+.techstacks h2 {
+  padding-top: 5%;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.techstacks h2::after {
+  display: none;
+}
+
+.techstacks h2 span {
+  border-bottom: 2px solid #0652dd;
+  padding-bottom: 6px;
+}
+
+.techstacks-list {
+  margin-top: 5%;
+  padding-bottom: 5%;
+  display: inline-table;
+  font-weight: 400;
+  color: #2c3e50;
+}
+
+@media only screen and (max-width: 1280px) {
+  .techstacks-content h2 {
+    font-size: 180%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .techstacks-content h2 {
+    font-size: 165%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .techstacks-content h2 {
+    font-size: 150%;
+  }
+
+  .techstacks-list {
+    margin-top: 7%;
+  }
+}

@@ -1,0 +1,38 @@
+.experience-content__item {
+    position: relative;
+    text-align: left;
+    left: 10%;
+    top: 10%;
+    margin-bottom: 5%;
+    width: 85%;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.experience-content__item li {
+    list-style: none;
+    font-size: 120%;
+}
+
+.experience-content__item > ul > li:first-child {
+    font-size: 170%;
+    font-weight: bold;
+}
+
+.experience-content__item > ul > li:nth-child(2) {
+    font-size: 130%;
+    font-style: italic;
+}
+
+.experience-grid__image img {
+    margin-top: 10%;
+    width: 250px;
+    height: 130px;
+    transition: all .5s ease-in-out;
+}
+
+.experience-grid__image img:active,
+.experience-grid__image img:hover {
+    transform: scale(1.20);
+}
+
