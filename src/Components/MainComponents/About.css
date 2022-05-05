@@ -13,16 +13,18 @@
 .about-content {
   width: 80%;
   color: #2c3e50;
-  border: 2px #2c3e50 solid;
+  /* border: 2px #2c3e50 solid; */
   margin-left: 10%;
   margin-top: 5%;
   padding: 2%;
 }
 
 .about-content h3 {
-  font-size: 250%;
+  width: 90%;
+  font-size: 200%;
   font-weight: 800;
-  text-align: justify;
+  text-align: left;
+
 }
 
 .about-content__content-item {
@@ -30,16 +32,18 @@
 }
 
 .about-content p {
-  width: 60%;
-  text-align: left;
+  width: 85%;
+  text-align: justify;
   line-height: 2rem;
 }
 
 .about-content img {
   width: auto;
-  height: 180px;
-  margin-top: 1%;
-  margin-left: 5%;
+  height: 200px;
+}
+
+.about-resume {
+  text-align: left;
 }
 
 @media only screen and (max-width: 1280px) {

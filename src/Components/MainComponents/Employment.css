@@ -1,0 +1,81 @@
+.employment {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 3%;
+}
+
+.employment h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5%;
+    color: #2c3e50;
+}
+
+.employment h2::after {
+    display: none;
+}
+
+.employment h2 span {
+    border-bottom: 2px solid #0652dd;
+    padding-bottom: 6px;
+}
+
+.employment-content {
+    left: 15%;
+    top: 5%;
+    position: relative;
+    text-align: center;
+    width: 70%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.employment-grid-container {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding-bottom: 5%;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .employment-content h2 {
+        font-size: 170%;
+    }
+
+    .employment-grid-container {
+        grid-template-columns: 70% 30%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .employment-content {
+        left: 5%;
+        width: 90%;
+        margin-top: 3%;
+    }
+
+    .employment-content h2 {
+        font-size: 160%;
+    }
+
+    .employment-grid-container {
+        grid-template-columns: 80% 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .employment-content {
+        left: 5%;
+        width: 90%;
+    }
+
+    .employment-content h2 {
+        font-size: 150%;
+    }
+
+    .employment-grid-container {
+        grid-template-columns: 70% 30%;
+        margin-bottom: 20%;
+    }
+}

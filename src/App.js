@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import MainNavigation from "./Components/Navigation/MainNavigation";
 import Home from "./Components/MainComponents/Home";
 import About from "./Components/MainComponents/About";
+import Employment from "./Components/MainComponents/Employment";
 import Education from "./Components/MainComponents/Education";
 import TechStacks from "./Components/MainComponents/TechStacks";
 import Project from "./Components/MainComponents/Project";
@@ -35,6 +36,7 @@ const App = () => {
           <MainNavigation />
           <Home data={resumeData} />
           <About data={resumeData} />
+          <Employment data={resumeData} />
           <Education data={resumeData} />
           <TechStacks data={resumeData} />
           <Project data={resumeData} />
